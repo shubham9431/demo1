@@ -17,6 +17,7 @@ public class HomeController {
 	@GetMapping("/sends")
 	public String send()
 	{
+		System.out.println("hello there");
 		SimpleMailMessage m=new SimpleMailMessage();
 		m.setTo("koundalkaryogesh4@gmail.com");
 		m.setSubject("janabae");
